@@ -1,0 +1,193 @@
+Version 2.1
++++++++++++++++++++++++++++++++++
+- Fixed - Refine category structure issue
+- Fixed - Next Previous arrow class names in theme settings
+- Fixed - Price display issue in side column modules
+- Fixed - Language drop down issue
+- Change - Custom CSS file link last
+- Added - New kids theme
+- Added - New white theme
+
+
+FILES CHANGED 
+=====================
+	\admin\controller\module\rgen_theme.php
+	\admin\view\stylesheet\rgen-module.css
+	\admin\view\template\module\rgen_theme.tpl
+	\catalog\view\theme\rgen-opencart\js\common.js
+	\catalog\view\theme\rgen-opencart\js\responsive.js
+	\catalog\view\theme\rgen-opencart\stylesheet\dark-theme.css
+	\catalog\view\theme\rgen-opencart\stylesheet\mob.css
+	\catalog\view\theme\rgen-opencart\stylesheet\store_home.css
+	\catalog\view\theme\rgen-opencart\stylesheet\stylesheet.css
+	\catalog\view\theme\rgen-opencart\stylesheet\tab.css
+	\catalog\view\theme\rgen-opencart\stylesheet\theme.css
+	\catalog\view\theme\rgen-opencart\template\common\header.tpl
+	\catalog\view\theme\rgen-opencart\template\common\RGen_font_setting.php
+	\catalog\view\theme\rgen-opencart\template\common\RGen_theme_setting.php
+	\catalog\view\theme\rgen-opencart\template\module\banner.tpl
+	\catalog\view\theme\rgen-opencart\template\module\special.tpl
+
+FILES ADDED
+=====================
+	\catalog\view\theme\rgen-opencart\image\rgen\kids
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4
+	\admin\view\image\rgen_theme\theme-options3.jpg
+	\admin\view\image\rgen_theme\theme-options4.jpg
+	\admin\view\image\rgen_theme\theme-options5.jpg
+	\catalog\view\theme\rgen-opencart\image\rgen\kids\clouds.png
+	\catalog\view\theme\rgen-opencart\image\rgen\kids\hr.png
+	\catalog\view\theme\rgen-opencart\image\rgen\kids\pagecolor.png
+	\catalog\view\theme\rgen-opencart\image\rgen\kids\SelectMenu.png
+	\catalog\view\theme\rgen-opencart\image\rgen\kids\sprites.png
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4\cart.png
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4\hr.png
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4\pattern1.png
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4\SelectMenu.png
+	\catalog\view\theme\rgen-opencart\image\rgen\theme4\sprites.png
+	\catalog\view\theme\rgen-opencart\js\jquery.mousewheel.min.js
+	\catalog\view\theme\rgen-opencart\stylesheet\slideshow.css
+	\catalog\view\theme\rgen-opencart\stylesheet\theme3.css
+	\catalog\view\theme\rgen-opencart\stylesheet\theme4.css
+
+
+Version 2.0 - RESPONSIVE VERSION RELEASE
++++++++++++++++++++++++++++++++++
+
+Upgrade instruction
+=====================
+This is major update of theme before copy files take existing theme backup.
+If you modified any theme files than compare files and take necessary changes in existing theme to upgrade.
+
+- Added - Responsive slideshow
+- Added - Option to select default grid view in product list
+- Added - Option to set logo out side menu
+- Added - Support default opencart product page layout
+- Added - Option to display review in tab in R.Gen product layout
+- Added - Option to display additional thumb images below main image
+- Added - Option to display large product image as cloudzoom or opencart popup overlay
+- Added - Option to display infromation links in main menu
+- Added - Option to add custom sub-menu items and main items
+- Added - Option to display slideshow with side small banners
+- Added - Slideshow settings from admin
+- Added - Custom font selection from admin
+- Added - Option to add custom JS code input
+- Fixed - Sub menu item display issue
+- Fixed - Issue display blank space if additional images not available
+- Fixed - Mini cart z-index issue
+- Fixed - Issue with custom select menu in forms
+- Change - Removed bxSlider and added new slider script
+- Change - Moved all custom language variables in "\catalog\language\english\english.php"
+
+
+FILES CHANGED 
+=====================
+
+ADMIN FILES
+------------------
+	\admin\view\stylesheet\rgen-module.css
+	\admin\controller\module\rgen_theme.php
+	\admin\view\template\module\rgen_theme.tpl
+
+LANGUAGE FILES
+------------------
+	\catalog\language\english\product\product.php
+	\catalog\language\english\english.php
+
+CONTROLLER FILES
+------------------
+	\catalog\controller\common\header.php
+	\catalog\controller\module\bestseller.php
+	\catalog\controller\module\featured.php
+	\catalog\controller\module\latest.php
+	\catalog\controller\module\special.php
+	\catalog\controller\product\category.php
+	\catalog\controller\product\product.php
+
+STYLE SHEET
+------------------
+	\catalog\view\theme\rgen-opencart\stylesheet\cloud-zoom.css
+	\catalog\view\theme\rgen-opencart\stylesheet\dark-theme.css
+	\catalog\view\theme\rgen-opencart\stylesheet\light-theme.css
+	\catalog\view\theme\rgen-opencart\stylesheet\scrollpane.css
+	\catalog\view\theme\rgen-opencart\stylesheet\store_home.css
+	\catalog\view\theme\rgen-opencart\stylesheet\stylesheet.css
+	\catalog\view\theme\rgen-opencart\stylesheet\theme.css
+
+JAVASCRIPTS 
+------------------
+	\catalog\view\theme\rgen-opencart\js\common.js
+
+TEMPLATE FILES
+------------------
+	\catalog\view\theme\rgen-opencart\template\account\address_form.tpl
+	\catalog\view\theme\rgen-opencart\template\account\register.tpl
+	\catalog\view\theme\rgen-opencart\template\account\wishlist.tpl
+	\catalog\view\theme\rgen-opencart\template\affiliate\edit.tpl
+	\catalog\view\theme\rgen-opencart\template\affiliate\register.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\cart.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\guest.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\guest_shipping.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\payment_address.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\register.tpl
+	\catalog\view\theme\rgen-opencart\template\checkout\shipping_address.tpl
+	\catalog\view\theme\rgen-opencart\template\common\content_bottom.tpl
+	\catalog\view\theme\rgen-opencart\template\common\footer.tpl
+	\catalog\view\theme\rgen-opencart\template\common\header.tpl
+	\catalog\view\theme\rgen-opencart\template\common\home.tpl
+	\catalog\view\theme\rgen-opencart\template\common\RGen_theme_setting.php
+	\catalog\view\theme\rgen-opencart\template\module\bestseller.tpl
+	\catalog\view\theme\rgen-opencart\template\module\featured.tpl
+	\catalog\view\theme\rgen-opencart\template\module\latest.tpl
+	\catalog\view\theme\rgen-opencart\template\module\rgen_theme.tpl
+	\catalog\view\theme\rgen-opencart\template\module\slideshow.tpl
+	\catalog\view\theme\rgen-opencart\template\module\special.tpl
+	\catalog\view\theme\rgen-opencart\template\module\store.tpl
+	\catalog\view\theme\rgen-opencart\template\product\category.tpl
+	\catalog\view\theme\rgen-opencart\template\product\manufacturer_info.tpl
+	\catalog\view\theme\rgen-opencart\template\product\product.tpl
+	\catalog\view\theme\rgen-opencart\template\product\search.tpl
+	\catalog\view\theme\rgen-opencart\template\product\special.tpl
+
+
+FILES ADDED
+++++++++++++++++++++++++
+
+ADMIN FILES
+------------------
+	\admin\view\image\rgen_theme\webfonts.json
+	\admin\view\image\rgen_theme\slideshow-beside-banner.png
+	\admin\view\image\rgen_theme\slideshow-full.png
+	\admin\view\image\rgen_theme\slideshow-medium.png
+	\admin\view\image\rgen_theme\slideshow-none.png
+	\admin\view\image\rgen_theme\slideshow-normal.png
+	\admin\view\image\rgen_theme\small-banner-below.png
+	\admin\view\image\rgen_theme\small-banner-beside.png
+	\admin\view\image\rgen_theme\small-banner-flexi.png
+
+CONTROLLER FILES
+------------------
+	\catalog\controller\module\slideshow.php
+
+STYLE SHEET
+------------------
+	\catalog\view\theme\rgen-opencart\stylesheet\desk.css
+	\catalog\view\theme\rgen-opencart\stylesheet\mob.css
+	\catalog\view\theme\rgen-opencart\stylesheet\nivo-slider.css
+	\catalog\view\theme\rgen-opencart\stylesheet\tab.css
+
+JAVASCRIPTS 
+------------------
+	\catalog\view\theme\rgen-opencart\js\enquire.min.js
+	\catalog\view\theme\rgen-opencart\js\jquery.carouFredSel-6.1.0-packed.js
+	\catalog\view\theme\rgen-opencart\js\jquery.nivo.slider.pack.js
+	\catalog\view\theme\rgen-opencart\js\jquery.touchSwipe.min.js
+	\catalog\view\theme\rgen-opencart\js\matchMedia.js
+	\catalog\view\theme\rgen-opencart\js\modernizr-2.6.2.min.js
+	\catalog\view\theme\rgen-opencart\js\responsive.js
+
+TEMPLATE FILES
+------------------
+	\catalog\view\theme\rgen-opencart\template\common\RGen_custom_dropdown.php
+	\catalog\view\theme\rgen-opencart\template\common\RGen_custom_menu_items.php
+	\catalog\view\theme\rgen-opencart\template\common\RGen_font_setting.php
